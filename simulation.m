@@ -4,7 +4,7 @@
 clear; clc; close all; % clean up
 rng(123) % set for repeatabilty
 tic % start timing
-nSyms = 2^20; % number of symbols to sim
+nSyms = 2^25; % number of symbols to sim
 nSamples = 2^4; % number of samples per symbol
 M = 4; % modulation order
 msg = randi([0 M-1],nSyms,1); % the msg to send
